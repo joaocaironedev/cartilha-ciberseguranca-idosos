@@ -4,7 +4,6 @@ Cartilha digital interativa desenvolvida para a **Atividade Extensionista II: Te
 
 O projeto ensina segurança digital básica para o público idoso, com foco em golpes aplicados por WhatsApp e redes sociais. Aplicado no **Lar São Vicente de Paulo**, em Taquarituba (SP).
 
-**ODS 04 — Educação de qualidade.**
 
 ## Tecnologias
 
@@ -34,4 +33,4 @@ Abra o arquivo `index.html` no navegador.
 
 ## Autor
 
-João Pedro Cairone Ribeiro — RU 5289614
+João Pedro Cairone Ribeiro
