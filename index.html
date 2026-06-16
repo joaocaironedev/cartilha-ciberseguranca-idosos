@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cartilha digital de cibersegurança para idosos no ambiente mobile. Projeto de inclusão digital - ADS.">
+  <title>Guia Digital Interativo | Segurança Mobile para Idosos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="kicker">Atividade Extensionista II - ADS</p>
+      <h1>Guia Digital Interativo</h1>
+      <p class="subtitle">Proteção e cibersegurança para idosos no ambiente mobile.</p>
+      <a class="hero__button" href="#cartilha">Começar orientações</a>
+    </div>
+  </header>
+
+  <nav class="toolbar" aria-label="Ferramentas de acessibilidade">
+    <button type="button" data-action="font-up" aria-label="Aumentar fonte">A+</button>
+    <button type="button" data-action="font-down" aria-label="Diminuir fonte">A-</button>
+    <button type="button" data-action="theme" aria-label="Alternar tema claro e escuro">Claro/Escuro</button>
+    <button type="button" data-action="contrast" aria-label="Ativar ou desativar alto contraste">Alto Contraste</button>
+  </nav>
+
+  <main id="cartilha">
+    <section class="notice" aria-label="Aviso importante">
+      <strong>Aviso importante:</strong>
+      bancos, lojas e órgãos públicos nunca pedem senha completa, código recebido por SMS ou instalação de aplicativo por mensagem.
+    </section>
+
+    <section class="intro">
+      <div>
+        <p class="section-label">Objetivo</p>
+        <h2>Aprender segurança digital com exemplos do dia a dia</h2>
+      </div>
+      <p>
+        Esta cartilha foi criada para apoiar idosos no uso seguro do celular, com linguagem simples,
+        botões acessíveis e dicas práticas para reconhecer golpes comuns.
+      </p>
+    </section>
+
+    <section class="cards" aria-label="Dicas de segurança">
+      <article class="card card--blue">
+        <span class="badge">WhatsApp</span>
+        <h3>Golpe do familiar</h3>
+        <p>Desconfie de mensagens como "troquei de número" ou "preciso de dinheiro urgente".</p>
+        <ul>
+          <li>Ligue para a pessoa antes de enviar dinheiro.</li>
+          <li>Confirme por outro canal de contato.</li>
+          <li>Nunca faça Pix por pressa ou ameaça.</li>
+        </ul>
+      </article>
+
+      <article class="card card--green">
+        <span class="badge">Links</span>
+        <h3>Mensagens suspeitas</h3>
+        <p>Links falsos podem roubar dados pessoais, senhas e informações bancárias.</p>
+        <ul>
+          <li>Não clique em prêmios ou promoções exageradas.</li>
+          <li>Confira se o endereço do site é oficial.</li>
+          <li>Na dúvida, peça ajuda antes de abrir.</li>
+        </ul>
+      </article>
+
+      <article class="card card--yellow">
+        <span class="badge">Senhas</span>
+        <h3>Proteja seus acessos</h3>
+        <p>Senhas fortes ajudam a proteger celular, banco, e-mail e redes sociais.</p>
+        <ul>
+          <li>Evite data de nascimento como senha.</li>
+          <li>Não compartilhe códigos recebidos por SMS.</li>
+          <li>Ative verificação em duas etapas quando possível.</li>
+        </ul>
+      </article>
+
+      <article class="card card--red">
+        <span class="badge">Banco</span>
+        <h3>Aplicativos financeiros</h3>
+        <p>Use apenas aplicativos oficiais instalados pela loja do celular.</p>
+        <ul>
+          <li>Não instale aplicativos enviados por mensagem.</li>
+          <li>Não entregue o celular desbloqueado a desconhecidos.</li>
+          <li>Procure o banco se perceber algo estranho.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="steps" aria-label="Passos em caso de golpe">
+      <p class="section-label">Em caso de suspeita</p>
+      <h2>O que fazer?</h2>
+      <ol>
+        <li>Pare e não responda à mensagem.</li>
+        <li>Não clique em links e não envie dinheiro.</li>
+        <li>Converse com familiar, vizinho de confiança ou representante da associação.</li>
+        <li>Bloqueie o contato suspeito e registre o ocorrido se houver prejuízo.</li>
+      </ol>
+    </section>
+
+    <section class="quiz" aria-live="polite">
+      <p class="section-label">Teste rápido</p>
+      <h2>Você sabe identificar o risco?</h2>
+      <p>Você recebeu mensagem de um número desconhecido pedindo dinheiro urgente. O que fazer?</p>
+      <div class="quiz__options">
+        <button type="button" data-answer="wrong">Enviar o dinheiro</button>
+        <button type="button" data-answer="right">Ligar para a pessoa e confirmar quem é</button>
+        <button type="button" data-answer="wrong">Passar minha senha</button>
+      </div>
+      <p id="quiz-result" class="quiz__result"></p>
+    </section>
+  </main>
+
+  <footer>
+    Projeto acadêmico de inclusão digital - ODS 04 Educação de qualidade
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
